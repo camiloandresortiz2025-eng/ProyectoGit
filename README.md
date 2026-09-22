@@ -35,7 +35,7 @@ git pull origin develop
 ## Integrantes del Proyecto
 - **Camilo Ortiz** (camiloandresortiz2025-eng) - Líder de Repositorio
 - **Tomás** (Tomas0512) - Desarrollador
-- **Edwin Delgado** (pmtsenda-afly) - Desarrollador
+- **Edwin Delgado** (pmtsenda-a11y) - Desarrollador
 
 ## Estructura del Proyecto
 ```
