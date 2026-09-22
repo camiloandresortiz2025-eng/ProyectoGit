@@ -40,10 +40,18 @@ git pull origin develop
 ## Estructura del Proyecto
 ```
 ProyectoGit/
-├── src/              # Código fuente principal
-├── .gitignore        # Archivos ignorados por Git
-├── README.md         # Este archivo
-└── MANUAL_ESTANDARES.md  # Estándares del proyecto
+├── .github/                  # Plantillas para Issues y Pull Requests
+│   └── PULL_REQUEST_TEMPLATE.md
+├── src/                      # Código fuente principal de la aplicación
+│   ├── components/           # Componentes reutilizables
+│   ├── screens/              # Pantallas o vistas
+│   └── utils/                # Funciones auxiliares o configuración
+├── .eslintrc.json            # Configuración de análisis estático (Linter)
+├── .gitignore                # Archivos y carpetas omitidos por Git
+├── .prettierrc               # Reglas de formateo de código
+├── LICENSE                   # Licencia del software
+├── MANUAL_ESTANDARES.md      # Estándares de codificación adoptados
+└── README.md                 # Documentación principal del proyecto
 ```
 
 ## Flujo de Trabajo (Gitflow)
